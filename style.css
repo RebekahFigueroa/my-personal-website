@@ -272,26 +272,22 @@ h4 {
   line-height: 1.5;
 }
 
+/* Projects Section */
+.projects-container{
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* Footer */
+.bottom-container {
+  background-color: #27496D;
+  padding-top: 1rem;
+  padding-bottom: 0.1rem;
+}
+
 /* Helper classes */
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
 
-/* Links/ Bottom */
-/* .bottom-container {
-    background-color: #27496D;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    display: flex;
-}
-
-.footer-link {
-    color: #92A9BD;
-    margin-bottom: 100px;
-    width: 50%;
-    text-decoration: none;
-}
-
-.citing {
-    color: #7C99AC
-} */
