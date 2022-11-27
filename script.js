@@ -1,3 +1,9 @@
-// const h2 = document.createElement("h2");
-// h2.textContent = "This content added by JavaScript";
-// document.querySelector("body").appendChild(h2);
+document.addEventListener("DOMContentLoaded", () => {
+  function updateTime() {
+    const timer = document.getElementById("timer");
+    timer.textContent = `The local time is: ${new Date().toLocaleTimeString()}`;
+  }
+
+  updateTime();
+  setInterval(updateTime, 1000);
+});

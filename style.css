@@ -27,7 +27,7 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #27496D;
+  background-color: #27496d;
 
   /* makes header sticky */
   height: 3.2rem;
@@ -76,7 +76,6 @@ h4 {
   width: 80%;
 }
 
-
 /* button formatting */
 .btn,
 .btn:link,
@@ -97,13 +96,13 @@ h4 {
 
 .btn--full:link,
 .btn--full:visited {
-  background-color: #0C7B93;
+  background-color: #0c7b93;
   color: #d0ebff;
 }
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #27496D;
+  background-color: #27496d;
 }
 
 .btn--outline:link,
@@ -133,14 +132,15 @@ h4 {
 }
 
 /* About Me container */
-.about-me-container{
-  background-color: #27496D;
+.about-me-container {
+  background-color: #27496d;
   color: #d0ebff;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   padding: 0 10rem;
+  padding-top: 5rem;
 }
 
 .about-me-description {
@@ -149,7 +149,7 @@ h4 {
 
 /* carousel details */
 #product-family-pictures {
-  background-color: #27496D;
+  background-color: #27496d;
   color: #d0ebff;
   width: 700px;
   height: 400px;
@@ -206,11 +206,13 @@ h4 {
 
 /* Timeline */
 .timeline-section {
-  background-color: #27496D;
+  background-color: #27496d;
   color: #d0ebff;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
 }
 
-.timeline{
+.timeline {
   margin: 0 auto;
   max-width: 750px;
   padding: 25px;
@@ -220,14 +222,14 @@ h4 {
   color: #d0ebff;
 }
 
-.timeline-component{
+.timeline-component {
   margin: 0 20px 20px 20px;
 }
 
-.timeline-component-bg{
+.timeline-component-bg {
   padding: 1.5em;
   background: rgb(20, 40, 80, 0.2);
-  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
 }
 
@@ -235,17 +237,17 @@ h4 {
   margin-bottom: 0;
 }
 
-.timeline-date-right{
+.timeline-date-right {
   text-align: right;
 }
 
 /* styles white bar */
-.timeline-middle{
+.timeline-middle {
   position: relative;
-  background:#d0ebff ;
+  background: #d0ebff;
 }
 
-.timeline-point{
+.timeline-point {
   position: absolute;
   top: 0;
   left: 50%;
@@ -261,27 +263,31 @@ h4 {
   bottom: 0;
 }
 
-.timeline-title{
+.timeline-title {
   margin: 0;
   font-size: 1.15em;
   font-weight: bold;
   color: #a5d8ff;
 }
 
-.timeline-paragraph{
+.timeline-paragraph {
   line-height: 1.5;
 }
 
 /* Projects Section */
-.projects-container{
+.projects-container {
   text-align: center;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
+#timer {
+  color: #a5d8ff;
+}
+
 /* Footer */
 .bottom-container {
-  background-color: #27496D;
+  background-color: #27496d;
   padding-top: 1rem;
   padding-bottom: 0.1rem;
 }
@@ -290,4 +296,3 @@ h4 {
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
-

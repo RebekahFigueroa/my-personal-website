@@ -3,358 +3,421 @@
   <head>
     <link rel="stylesheet" href="style.css" />
 
-  <!-- CSS Stylesheets -->
-  <link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-  rel="stylesheet"
-  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-  crossorigin="anonymous"
-/>
-<link rel="stylesheet" href="style.css" />
+    <!-- CSS Stylesheets -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-<!-- JavaScript Bundle with Popper -->
-<script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-  crossorigin="anonymous"
-></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
 
     <title>My Personal Website</title>
   </head>
   <body>
+    <!-- Navbar -->
 
-<!-- Navbar -->
+    <header class="header">
+      <p>Rebekah Figueroa</p>
 
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a href="#" class="main-nav-link">About Me</a>
+          </li>
 
-<header class="header">
-  <p>Rebekah Figueroa</p>
+          <li>
+            <a href="#" class="main-nav-link">Work Experience</a>
+          </li>
+          <li>
+            <a href="#" class="main-nav-link">Projects</a>
+          </li>
+          <li>
+            <a href="#" class="main-nav-link">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  <nav class="main-nav">
-    <ul class="main-nav-list">
-      <li>
-        <a href="#" class="main-nav-link">About Me</a>
-      </li>
-
-      <li>
-        <a href="#" class="main-nav-link">Work Experience</a>
-      </li>
-      <li>
-        <a href="#" class="main-nav-link">Projects</a>
-      </li>
-      <li>
-        <a href="#" class="main-nav-link">Contact Me</a>
-      </li>
-    </ul>
-  </nav>
-</header>
-
-<!-- Introduction section w/ headshot -->
+    <!-- Introduction section w/ headshot -->
     <div class="top-container">
       <div class="hero-description">
         <h2>Howdy! I'm</h2>
         <h1>Rebekah Figueroa</h1>
         <h4>Chemist | Product Manager | Software Engineering Student</h4>
-        <p> 
-          Hi, nice to meet you! I'm a chemist turned product manager who has been
-      working in the product development space for over 6 years. I specialize
-      in first-to-market launches with a focus in the consumer product goods
-      space. I'm currently studying in a coding bootcamp to transition to a career as a software engineer. Curious to learn more about my journey? Check out what I've been up to below or feel free to reach out to chat!</p>
-        <a href="https://www.linkedin.com/in/rebekah-figueroa-6a486372/" class="btn btn--full margin-right-sm btn-hero">LinkedIn</a>
-        <a href="https://github.com/RebekahFigueroa" class="btn btn--full margin-right-sm btn-hero">GitHub</a>
+
+        <p>
+          Hi, nice to meet you! I'm a chemist turned product manager who has
+          been working in the product development space for over 6 years. I
+          specialize in first-to-market launches with a focus in the consumer
+          product goods space. I'm currently studying in a coding bootcamp to
+          transition to a career as a software engineer. Curious to learn more
+          about my journey? Check out what I've been up to below or feel free to
+          reach out to chat!
+        </p>
+        <a
+          href="https://www.linkedin.com/in/rebekah-figueroa-6a486372/"
+          class="btn btn--full margin-right-sm btn-hero"
+          >LinkedIn</a
+        >
+        <a
+          href="https://github.com/RebekahFigueroa"
+          class="btn btn--full margin-right-sm btn-hero"
+          >GitHub</a
+        >
       </div>
       <div class="hero-img-rounded">
-        <img class="hero-img" src="./images/headshot.png" alt="headshot">
+        <img class="hero-img" src="./images/headshot.png" alt="headshot" />
       </div>
-    
-  </div>
-
-  <div class="about-me-container">
-    <div class="about-me-description">
-    <h3>A bit about me: </h3>
-    <h4>
-      I've been working in the product development space for over 6 years, making everything from shampoo to gummies to diffusers. 
-      I fell in love with the science behind product development, specifically coming up with novel solutions to every day problems. 
-      I love working on products that brighten someone's day and have a lot of pride for the products I've launched. 
-      Curious to see what I've worked on? Take a look to the right!</h4>
-      <h4>On a personal level, I'm currently located in Texas and enjoy cooking, video games, and sewing when I'm not coding!</h4>
     </div>
-  
-  <!-- Picture Carousel -->
-  <section id="product-family-pictures">
-    <div
-      id="product-family-carousel"
-      class="carousel slide"
-      data-ride="false"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h2 class="carousel-text"><strong> Head and Shoulders</strong></h2>
-          <p class="carosel-header-details">Company: Procter & Gamble</p>
-          <img
-            class="carousel-pic"
-            src="./images/head and shoulders.jpg"
-            alt="picture of head and shoulders"
-          />
-          <p class="carousel-decription-text">
-            <em>
-              H&S was my first product to work on coming out of college, so it
-              is near and dear to my heart! I spent most of the time on the
-              bench developing prototypes and also worked on a few
-              patents.</em
-            >
+
+    <div class="about-me-container">
+      <div class="about-me-description">
+        <h3>A bit about me:</h3>
+        <h4>
+          I've been working in the product development space for over 6 years,
+          making everything from shampoo to gummies to diffusers. I fell in love
+          with the science behind product development, specifically coming up
+          with novel solutions to every day problems. I love working on products
+          that brighten someone's day and have a lot of pride for the products
+          I've launched. Curious to see what I've worked on? Take a look to the
+          right!
+        </h4>
+        <h4>
+          On a personal level, I'm currently located in Texas and enjoy cooking,
+          video games, and sewing when I'm not coding!
+        </h4>
+      </div>
+
+      <!-- Picture Carousel -->
+      <section id="product-family-pictures">
+        <div
+          id="product-family-carousel"
+          class="carousel slide"
+          data-ride="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2 class="carousel-text">
+                <strong> Head and Shoulders</strong>
+              </h2>
+              <p class="carosel-header-details">Company: Procter & Gamble</p>
+              <img
+                class="carousel-pic"
+                src="./images/head and shoulders.jpg"
+                alt="picture of head and shoulders"
+              />
+              <p class="carousel-decription-text">
+                <em>
+                  H&S was my first product to work on coming out of college, so
+                  it is near and dear to my heart! I spent most of the time on
+                  the bench developing prototypes and also worked on a few
+                  patents.</em
+                >
+              </p>
+            </div>
+
+            <div class="carousel-item">
+              <h2 class="carousel-text"><strong>Vicks® VapoCream™ </strong></h2>
+              <p class="carosel-header-details">Company: Procter & Gamble</p>
+              <img
+                class="carousel-pic"
+                src="./images/vicks vapocream.jpg"
+                alt="picture of vicks vapocream"
+              />
+              <p class="carousel-decription-text">
+                <em
+                  >Vapocream was my first product I launched on shelf. I learned
+                  a lot about production scale up and the product roadmap from
+                  mvp to on shelf.
+                </em>
+              </p>
+            </div>
+
+            <div class="carousel-item">
+              <h2 class="carousel-text">
+                <strong
+                  >Vicks® VapoCOOL™ SEVERE Honey Lemon Chill Drops
+                </strong>
+              </h2>
+              <p class="carosel-header-details">Company: Procter & Gamble</p>
+              <img
+                class="carousel-pic"
+                src="./images/vapocool honey.webp"
+                alt="picture of honey vicks vapocool lozenges"
+              />
+              <p class="carousel-decription-text">
+                <em
+                  >VapoCool was my first project where I was leading the
+                  development. All cross functional partners were looking to me
+                  for answers, so it pushed me to develop my leadership style
+                  and learn how to instill confidence and trust in my
+                  teammembers.
+                </em>
+              </p>
+            </div>
+
+            <div class="carousel-item">
+              <h2 class="carousel-text">
+                <strong>Vicks® Immunity Zzzs Gummies </strong>
+              </h2>
+              <p class="carosel-header-details">Company: Procter & Gamble</p>
+              <img
+                class="carousel-pic"
+                src="./images/ummunity zzz.PNG"
+                alt="picture of vicks immunity gummies"
+              />
+              <p class="carousel-decription-text">
+                <em
+                  >The gummies project was an exciting opportunity for me
+                  because I always had a secret dream of being a candy chemist!
+                  Large scale candy making isn't easy and a lot can go wrong, so
+                  this project taught me to prepare and then over prepare for
+                  what could go wrong during development.
+                </em>
+              </p>
+            </div>
+
+            <div class="carousel-item">
+              <h2 class="carousel-text">
+                <strong>365 by Whole Foods Market, New Shampoo Line </strong>
+              </h2>
+              <p class="carosel-header-details">Company: Whole Foods Market</p>
+              <img
+                class="carousel-pic"
+                src="./images/wfm shampoo.PNG"
+                alt="picture of whole foods market shampoo line"
+              />
+              <p class="carousel-decription-text">
+                <em
+                  >My first full product line launch, this completely changed
+                  the way I looked at market launches and consumer expectations
+                  of your product! I had to juggle balancing the cost
+                  implications of being a grocery store private label budget
+                  option with the high quality standards of the WFM brand.
+                </em>
+              </p>
+            </div>
+
+            <div class="carousel-item">
+              <h2 class="carousel-text">
+                <strong
+                  >Whole Paws by Whole Foods Market, Smoked Chicken Jerky
+                </strong>
+              </h2>
+              <p class="carosel-header-details">Company: Whole Foods Market</p>
+              <img
+                class="carousel-pic"
+                src="./images/petfood.PNG"
+                alt="picture of whole foods market chicken jerky"
+              />
+              <p class="carousel-decription-text">
+                <em
+                  >What did I know about pet food before tackling this project?
+                  Absolutely nothing! But I learned, and I learned fast. I
+                  developed skills on how to strategically learn, and that
+                  sometimes it's ok to let go of knowing every technical detail
+                  of your product when you're leading instead of on the bench
+                  developing.
+                </em>
+              </p>
+            </div>
+
+            <div class="carousel-item">
+              <h2 class="carousel-text">
+                <strong
+                  >365 By Whole Foods Market, Essential Oil Kit Starter
+                </strong>
+              </h2>
+              <p class="carosel-header-details">Company: Whole Foods Market</p>
+              <img
+                class="carousel-pic"
+                src="./images/essential oil.PNG"
+                alt="picture of whole foods market essential oil kit"
+              />
+              <p class="carousel-decription-text">
+                <em
+                  >Surprisingly, for such a simple form, I consider these
+                  essential oils one of the hardest products I've ever worked
+                  on. This wasn't a product I used or one I was familiar with.
+                  It forced me to really deep dive into understanding the
+                  consumer, their needs, and what mattered most to them.
+                </em>
+              </p>
+            </div>
+
+            <div class="carousel-item">
+              <h2 class="carousel-text">
+                <strong>B2B SAAS Manufacturing Recruiting Platform </strong>
+              </h2>
+              <p class="carosel-header-details">Company: FactoryFix</p>
+              <img
+                class="carousel-pic"
+                src="./images/ffix.PNG"
+                alt="picture of factoryfix"
+              />
+              <p class="carousel-decription-text">
+                <em
+                  >This was my first experience with non-CPG products and formal
+                  product management, and it really challenged me to go beyond
+                  my limits. I've loved the 'skies the limit' approach to tech
+                  development and the endless possibilities available to meet
+                  consumer needs.
+                </em>
+              </p>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#product-family-carousel"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#product-family-carousel"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <!-- resume timeline -->
+    <section class="timeline-section">
+      <div class="timeline">
+        <!-- right -->
+        <div class="timeline-component">
+          <div class="timeline-date timeline-date-right">May 2016</div>
+        </div>
+        <div class="timeline-middle">
+          <div class="timeline-point"></div>
+        </div>
+        <div class="timeline-component timeline-component-bg">
+          <h2 class="timeline-title">Gradauted from Purdue University</h2>
+          <p class="timeline-paragraph">
+            Recieved a BS in Chemistry from the West Lafayette, IN campus
           </p>
         </div>
-
-        <div class="carousel-item">
-          <h2 class="carousel-text"><strong>Vicks® VapoCream™ </strong></h2>
-          <p class="carosel-header-details">Company: Procter & Gamble</p>
-          <img
-            class="carousel-pic"
-            src="./images/vicks vapocream.jpg"
-            alt="picture of vicks vapocream"
-          />
-          <p class="carousel-decription-text">
-            <em
-              >Vapocream was my first product I launched on shelf. I learned a
-              lot about production scale up and the product roadmap from mvp
-              to on shelf.
-            </em>
-          </p>
-        </div>
-
-        <div class="carousel-item">
-          <h2 class="carousel-text">
-            <strong>Vicks® VapoCOOL™ SEVERE Honey Lemon Chill Drops </strong>
+        <!-- left-->
+        <div class="timeline-component timeline-component-bg">
+          <h2 class="timeline-title">
+            Procter & Gamble- Process and Formulation Researcher
           </h2>
-          <p class="carosel-header-details">Company: Procter & Gamble</p>
-          <img
-            class="carousel-pic"
-            src="./images/vapocool honey.webp"
-            alt="picture of honey vicks vapocool lozenges"
-          />
-          <p class="carousel-decription-text">
-            <em
-              >VapoCool was my first project where I was leading the
-              development. All cross functional partners were looking to me
-              for answers, so it pushed me to develop my leadership style and
-              learn how to instill confidence and trust in my teammembers.
-            </em>
+          <p class="timeline-paragraph">
+            Worked as a formulation researcher in the Beauty Care division on
+            Head & Shoulders. Eventually moved internally to a process and
+            formulation position with the Health Care division working on Vicks.
           </p>
         </div>
-
-        <div class="carousel-item">
-          <h2 class="carousel-text">
-            <strong>Vicks® Immunity Zzzs Gummies </strong>
+        <div class="timeline-middle">
+          <div class="timeline-point"></div>
+        </div>
+        <div class="timeline-component">
+          <div class="timeline-date">June 2016</div>
+        </div>
+        <!-- right -->
+        <div class="timeline-component">
+          <div class="timeline-date timeline-date-right">January 2020</div>
+        </div>
+        <div class="timeline-middle">
+          <div class="timeline-point"></div>
+        </div>
+        <div class="timeline-component timeline-component-bg">
+          <h2 class="timeline-title">
+            Whole Foods Market-Product Research & Development Analyst
           </h2>
-          <p class="carosel-header-details">Company: Procter & Gamble</p>
-          <img
-            class="carousel-pic"
-            src="./images/ummunity zzz.PNG"
-            alt="picture of vicks immunity gummies"
-          />
-          <p class="carousel-decription-text">
-            <em
-              >The gummies project was an exciting opportunity for me because
-              I always had a secret dream of being a candy chemist! Large
-              scale candy making isn't easy and a lot can go wrong, so this
-              project taught me to prepare and then over prepare for what
-              could go wrong during development.
-            </em>
+          <p class="timeline-paragraph">
+            Led product development work for Beauty Care, Household, and Pet
+            Care WFM private label brands through contract manufacturing
+            partnerships.
           </p>
         </div>
-
-        <div class="carousel-item">
-          <h2 class="carousel-text">
-            <strong>365 by Whole Foods Market, New Shampoo Line </strong>
-          </h2>
-          <p class="carosel-header-details">Company: Whole Foods Market</p>
-          <img
-            class="carousel-pic"
-            src="./images/wfm shampoo.PNG"
-            alt="picture of whole foods market shampoo line"
-          />
-          <p class="carousel-decription-text">
-            <em
-              >My first full product line launch, this completely changed the
-              way I looked at market launches and consumer expectations of
-              your product! I had to juggle balancing the cost implications of
-              being a grocery store private label budget option with the high
-              quality standards of the WFM brand.
-            </em>
+        <!-- left-->
+        <div class="timeline-component timeline-component-bg">
+          <h2 class="timeline-title">Benitago- Product Specialist</h2>
+          <p class="timeline-paragraph">
+            Took a leap to explore a startup, specifically working on e-commerce
+            growth in CPG verticals on Amazon.
           </p>
         </div>
-
-        <div class="carousel-item">
-          <h2 class="carousel-text">
-            <strong
-              >Whole Paws by Whole Foods Market, Smoked Chicken Jerky
-            </strong>
+        <div class="timeline-middle">
+          <div class="timeline-point"></div>
+        </div>
+        <div class="timeline-component">
+          <div class="timeline-date">June 2021</div>
+        </div>
+        <!-- right -->
+        <div class="timeline-component">
+          <div class="timeline-date timeline-date-right">October 2021</div>
+        </div>
+        <div class="timeline-middle">
+          <div class="timeline-point"></div>
+        </div>
+        <div class="timeline-component timeline-component-bg">
+          <h2 class="timeline-title">
+            FactoryFix-In-App Activity Product Manager
           </h2>
-          <p class="carosel-header-details">Company: Whole Foods Market</p>
-          <img
-            class="carousel-pic"
-            src="./images/petfood.PNG"
-            alt="picture of whole foods market chicken jerky"
-          />
-          <p class="carousel-decription-text">
-            <em
-              >What did I know about pet food before tackling this project?
-              Absolutely nothing! But I learned, and I learned fast. I
-              developed skills on how to strategically learn, and that
-              sometimes it's ok to let go of knowing every technical detail of
-              your product when you're leading instead of on the bench
-              developing.
-            </em>
+          <p class="timeline-paragraph">
+            Pivoted my career to product management to break into the tech
+            space. Oversaw the strategy for customer- facing business, focusing
+            on increasing retention and in-app activity.
           </p>
         </div>
-
-        <div class="carousel-item">
-          <h2 class="carousel-text">
-            <strong
-              >365 By Whole Foods Market, Essential Oil Kit Starter
-            </strong>
+        <!-- left bottom -->
+        <div
+          class="timeline-component timeline-component-bottom timeline-component-bg"
+        >
+          <h2 class="timeline-title">
+            Began studying at the FlatIron bootcamp
           </h2>
-          <p class="carosel-header-details">Company: Whole Foods Market</p>
-          <img
-            class="carousel-pic"
-            src="./images/essential oil.PNG"
-            alt="picture of whole foods market essential oil kit"
-          />
-          <p class="carousel-decription-text">
-            <em
-              >Surprisingly, for such a simple form, I consider these
-              essential oils one of the hardest products I've ever worked on.
-              This wasn't a product I used or one I was familiar with. It
-              forced me to really deep dive into understanding the consumer,
-              their needs, and what mattered most to them.
-            </em>
+          <p class="timeline-paragraph">
+            Wanting to go back into a development background, began my journey
+            studying software engineering. The courses will cover JavaScript,
+            ReactJS, Ruby, Ruby on Rails, and a final capstone project.
+            Projected completion is April 2023.
           </p>
         </div>
-
-        <div class="carousel-item">
-          <h2 class="carousel-text">
-            <strong>B2B SAAS Manufacturing Recruiting Platform </strong>
-          </h2>
-          <p class="carosel-header-details">Company: FactoryFix</p>
-          <img
-            class="carousel-pic"
-            src="./images/ffix.PNG"
-            alt="picture of factoryfix"
-          />
-          <p class="carousel-decription-text">
-            <em
-              >This was my first experience with non-CPG products and formal
-              product management, and it really challenged me to go beyond my
-              limits. I've loved the 'skies the limit' approach to tech
-              development and the endless possibilities available to meet
-              consumer needs.
-            </em>
-          </p>
+        <div class="timeline-middle">
+          <div class="timeline-point"></div>
+          <div class="timeline-point timeline-point-bottom"></div>
+        </div>
+        <div class="timeline-component timeline-component-bottom">
+          <div class="timeline-date">November 2022</div>
         </div>
       </div>
-      <a
-        class="carousel-control-prev"
-        href="#product-family-carousel"
-        role="button"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#product-family-carousel"
-        role="button"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
-  </section>
-</div>
+    </section>
 
-<!-- resume timeline -->
-<section class="timeline-section">
-  <div class="timeline">
-    <!-- right -->
-    <div class="timeline-component">
-      <div class="timeline-date timeline-date-right">May 2016</div>
-    </div>
-    <div class="timeline-middle">
-      <div class="timeline-point"></div>
-    </div>
-    <div class="timeline-component timeline-component-bg">
-      <h2 class="timeline-title">Gradauted from Purdue University</h2>
-      <p class="timeline-paragraph">Recieved a BS in Chemistry from the West Lafayette, IN campus</p>
-    </div>
-    <!-- left-->
-    <div class="timeline-component timeline-component-bg">
-      <h2 class="timeline-title">Procter & Gamble- Process and Formulation Researcher</h2>
-      <p class="timeline-paragraph">Worked as a formulation researcher in the Beauty Care division on Head & Shoulders. Eventually moved internally to a process and formulation position with the Health Care division working on Vicks.</p>
-    </div>
-    <div class="timeline-middle">
-      <div class="timeline-point"></div>
-    </div>
-    <div class="timeline-component">
-      <div class="timeline-date">June 2016</div>
-    </div>
-     <!-- right -->
-     <div class="timeline-component">
-      <div class="timeline-date timeline-date-right">January 2020 </div>
-    </div>
-    <div class="timeline-middle">
-      <div class="timeline-point"></div>
-    </div>
-    <div class="timeline-component timeline-component-bg">
-      <h2 class="timeline-title">Whole Foods Market-Product Research & Development Analyst</h2>
-      <p class="timeline-paragraph">Led product development work for Beauty Care, Household, and Pet Care WFM private label brands through contract manufacturing partnerships.</p>
-    </div>
-     <!-- left-->
-     <div class="timeline-component timeline-component-bg">
-      <h2 class="timeline-title">Benitago- Product Specialist</h2>
-      <p class="timeline-paragraph">Took a leap to explore a startup, specifically working on e-commerce growth in CPG verticals on Amazon.</p>
-    </div>
-    <div class="timeline-middle">
-      <div class="timeline-point"></div>
-    </div>
-    <div class="timeline-component">
-      <div class="timeline-date">June 2021</div>
-    </div>
-    <!-- right -->
-    <div class="timeline-component">
-      <div class="timeline-date timeline-date-right">October 2021 </div>
-    </div>
-    <div class="timeline-middle">
-      <div class="timeline-point"></div>
-    </div>
-    <div class="timeline-component timeline-component-bg">
-      <h2 class="timeline-title">FactoryFix-In-App Activity Product Manager</h2>
-      <p class="timeline-paragraph">Pivoted my career to product management to break into the tech space. Oversaw the strategy for customer- facing business, focusing on increasing retention and in-app activity.</p>
-    </div>
- <!-- left bottom -->
- <div class="timeline-component timeline-component-bottom timeline-component-bg">
-  <h2 class="timeline-title">Began studying at the FlatIron bootcamp</h2>
-  <p class="timeline-paragraph">Wanting to go back into a development background, began my journey studying software engineering. The courses will cover JavaScript, ReactJS, Ruby, Ruby on Rails, and a final capstone project. Projected completion is April 2023. </p>
-</div>
-<div class="timeline-middle">
-  <div class="timeline-point"></div>
-  <div class="timeline-point timeline-point-bottom"></div>
-</div>
-<div class="timeline-component timeline-component-bottom ">
-  <div class="timeline-date">May 2016</div>
-</div>
-  </div>
-</section>
+    <!-- Gives information about Projects -->
+    <div class="projects-container">
+      <h3 class="projects-text">
+        Expect projects to update here as I move along in the program!
+      </h3>
 
-  <!-- Gives information about Projects -->
-  <div class="projects-container">
-    <h3 class="projects-text">Expect projects to update here as I move along in the program!</h3>
-    <img src="./images/work_in_progress-removebg-preview.png" alt="work in progress sign" class="work-in-progress-img">
-  </div>
+      <div id="timer"></div>
 
-  <div class="bottom-container">
-    <p class="citing" >© 2022 Rebekah Figueroa.</p>
-  </div>
+      <img
+        src="./images/work_in_progress-removebg-preview.png"
+        alt="work in progress sign"
+        class="work-in-progress-img"
+      />
+    </div>
 
-  <script src="script.js"></script>
+    <div class="bottom-container">
+      <p class="citing">© 2022 Rebekah Figueroa.</p>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
